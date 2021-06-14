@@ -1,6 +1,6 @@
 # talkTemplate
 
-![Build](https://github.com/willvieira/talkTemplate/workflows/Build/badge.svg) [![html](https://img.shields.io/badge/read-html-blue)](https://willvieira.github.io/talkTemplate/#1) [![pdf](https://img.shields.io/badge/read-pdf-yellow)](https://willvieira.github.io/talkTemplate/slides.pdf)
+![Build](https://github.com/Azenor/talk_seminar2UdeS/workflows/Build/badge.svg) [![html](https://img.shields.io/badge/read-html-blue)](https://Azenor.github.io/talk_seminar2UdeS/#1) [![pdf](https://img.shields.io/badge/read-pdf-yellow)](https://Azenor.github.io/talk_seminar2UdeS/slides.pdf)
 
 ## Abstract
 

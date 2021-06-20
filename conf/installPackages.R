@@ -14,7 +14,7 @@ print(toInstall)
 # Install CRAN
 if(length(toInstall) > 0)
     install.packages(toInstall, dependencies = TRUE)
-    
+
 # get github packages
 toInstall <- setdiff(unlist(pck$r_github_packages), sapply(rownames(installed.packages())[sapply(rownames(installed.packages()), function(x) {!is.null(packageDescription(x)['GithubRepo'][[1]])})], function(x) paste0(packageDescription(x)['GithubUsername'][[1]], '/', packageDescription(x)['GithubRepo'][[1]])))
 print(toInstall)

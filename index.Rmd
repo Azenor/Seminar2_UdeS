@@ -942,7 +942,7 @@ class: inverse
 
 # Key message here
 
-<br><br><br><br><br><br><br><br>
+<br><br><br><br><br>
 
 **Special thanks to**
 
@@ -955,5 +955,5 @@ class: inverse
 
 .pull-right1[
 <br>
-![:scale 90%](images/logo.png)
+![:scale 200%](images/logo.png)
 ]

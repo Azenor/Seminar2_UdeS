@@ -156,6 +156,8 @@ class: middle, title-slide
 - Interaction strength
 - Stability]
 
+.center[How and why ?]
+
 ---
 # Food webs vary across space and time
 
@@ -172,11 +174,6 @@ class: middle, title-slide
 - Interactions
 - Interaction strength
 - Stability]
-
---
-
-<br><br><br>
-.center[Variation in structure and dynamics]
 
 ---
 
@@ -364,7 +361,7 @@ class: middle, center, inverse
 ## A cross-ecosystem comparison
 
 ---
-# Effects of temperature on food chain structural properties
+# Food chain structural properties
 
 .center[
 Biomass distribution
@@ -469,16 +466,7 @@ Examples :
 
 Synthetic parameters describing food chain properties
 
-![](images/theoretical_framework.png)
-
-<br><br>
-.small[.pull-right2[*Barbier & Loreau 2019*]]
-
----
-# Theoretical framework
-Synthetic parameters describing food chain properties
-
-![](images/theoretical_framework1.png)
+.center[![:scale 95%](images/theoretical_framework1.png)]
 
 κ denotes how much biomass is gained by consumers per unit biomass lost by resources
 
@@ -488,9 +476,9 @@ Synthetic parameters describing food chain properties
 # Theoretical framework
 Synthetic parameters describing food chain properties
 
-![](images/theoretical_framework1.png)
+.center[![:scale 95%](images/theoretical_framework1.png)]
 
-λ describes the feedback of a trophic level on itself through its predators
+λ compares the effect of species i on species j to the effect of species i on itself
 
 .cite[Barbier & Loreau [2019]]
 
@@ -498,13 +486,13 @@ Synthetic parameters describing food chain properties
 # Theoretical framework
 Temperature dependence
 
-![](images/theoretical_framework2.png)
+.center[![:scale 95%](images/theoretical_framework2.png)]
 
 ---
 # Theoretical framework
 Temperature dependence
 
-![](images/theoretical_framework3.png)
+.center[![:scale 95%](images/theoretical_framework3.png)]
 
 ---
 # Theoretical framework
@@ -542,7 +530,7 @@ $E_κ = E_ϵ + E_{D_1} - E_{D_2}$
 <br><br>
 $E_\lambda =  E_ϵ + 2(E_A-E_{D_2}) + E_{D_2} - E_{D_1}$]
 
-.pull-right1[![:scale 70%](images/BAfunction_mismatch.png) <br>
+.pull-right1[![](images/BAfunction_mismatch.png) <br>
 Mismatches between biological rates]
 
 ---
@@ -610,29 +598,27 @@ class: inverse, center, middle
 ---
 # To conclude
 
-.pull-left[
 - Mechanistic understanding
-- Differences between aquatic and terrestrial communities
-- Predictions
-- Variation between taxonomic groups]
+  - Importance of 3 parameters and their mismatches in temperature dependence
+- Different effects of warming between aquatic and terrestrial communities
+  - more top-down control in aquatic systems
+  - top-heavier pyramids in aquatic and terrestrial systems
+- Variation between taxonomic groups
+  - could explain the observed variety of responses
+- Estimation for herbivory at the global scale coherent with other studies
+  - Predictions
 
 ---
 # To conclude
 
-.pull-left[
-- Mechanistic understanding
-- Differences between aquatic and terrestrial communities
-- Predictions
-- Variation between taxonomic groups]
 
-
-.pull-right[
 But...
+
 - Lack of data
   - Self-regulation
   - Biomass conversion efficiency
   - Full thermal response
-- Consumer-resource interactions]
+- Consumer-resource interactions
 
 ---
 # Upscaling to food webs at the global scale
@@ -761,7 +747,6 @@ Biomass can be inferred from allometric relationship]
 ---
 # Estimation of species biomass
 
-<br>
 .center[Abundance law
 
 ![:scale 60%](images/hatton.png)]
@@ -811,7 +796,7 @@ You'll have to believe me (or not) for today...]
 **Sum species biomass**]
 
 ---
-# Measures of community dynamics
+# Measures of species dynamics
 
 <br>
 .center[
@@ -842,63 +827,83 @@ class: inverse, middle, center
 # Results
 
 ---
-# Dynamical properties at large scale
+# Community properties at large scale
 
 .center[Trophic control
 ![](images/map_lambda.png)]
 
 ---
-# Dynamical properties according to the number of species
+# Community properties according to the number of species
 
-.center[![:scale 60%](images/nbspecies.svg)
+<br>
+.center[![](images/nbspecies.svg)
 
 Effect of the number of species on λ and collectivity]
 
 ---
-# Dynamical properties according to temperature
+# Community properties according to temperature
 
-.center[![:scale 60%](images/temp_control.svg)
+<br>
+.center[![](images/temp_control.svg)
 
-The temperature gradient alone does not seem to affect community properties (except collectivity) <br>
-But what about warming ?]
+<br>
+The temperature gradient alone does not seem to strongly affect community properties (except collectivity)
+
+<br>
+**But what about warming ?**]
 
 ---
-# Effect of warming on dynamical properties
+# Effect of warming on community properties
 
-.center[![:scale 60%](images/heat_diff.svg)]
+<br>
+.center[Relative change with warming
 
-.center[Warming does not strongly affect community properties, except collectivity.
-Interactive effect of the temperature gradient with warming.]
+![](images/heat_diff.svg)]
+
+<br>
+.center[Warming does not strongly affect community properties, except collectivity
+
+Interactive effect of warming and the temperature gradient]
 
 ---
 # Effect of warming on species biomass
 
 .center[If warming does not affect some properties of the community as a whole, does it affect single species in the community ?]
 
-.center[Difference in species biomass with warming for each trophic level
-![](images/heat_hist.svg)]
+--
+<br>
+.center[Relative change in species biomass with warming for each trophic level
+
+![:scale 70%](images/heat_hist.svg)]
 
 ---
-# Conclusion
+# To conclude
 
-- Effect of the number of species on λ and collectivity
-  - Could explain the latitudinal variation of trophic control
+- Latitudinal variation mostly driven by number of species
+- λ decreases and collectivity increases with the number of species
+  - Latitudinal variation in trophic control
 - Temperature gradient and warming affects collectivity but not significantly other community properties
 
-**Warming seems to affect individual species more than communities as an entity**
-
-Especially species from trophic levels 2 and 3
-
 <br><br>
+.center[**Warming seems to affect individual species more significantly than communities as an entity**
+
+Especially species from trophic levels 2 and 3]
+
+---
+# To conclude
+
+<br>
 Limitations :
 
 - Model assumptions and parameters
 - Limited data available
 - No variation in activation energies (but same group taxonomic)
 
+.center[The model is right but it might be wrong]
+
 ---
-class: inverse, center, middle
-# To conclude
+class: inverse, middle, center
+# General conclusion
 
 ---
 # To conclude - First part
@@ -915,24 +920,33 @@ class: inverse, center, middle
 .center[**General trend : more top-down control in aquatic systems and top-heavier biomass distribution in terrestrial and aquatic ones**]
 
 ---
-# To conclude - First part
+# To conclude - Second part
 
-.center[![:scale 80%](images/schema_recap4.png)]
+.center[![:scale 70%](images/phd_3D_conclu.svg)
 
-.center[**Herbivory : more top-down control and less bottom-heavy biomass distribution**]
+Temperature effects seem to vary from one scale to another !]
 
 ---
 # To conclude - Second part
 
-- Trophic control and collectivity are affected by number of species
-  - Latitudinal gradient mostly driven by changes in number of species
+- Latitudinal gradient mostly driven by number of species
+- Community properties seem robust to warming
+- But individual species much less !
+  - Which could explain why strong effects are observed at lower scales
 
-**Warming seems affect individual species biomasses, but not significantly community properties**
+<br>
+.center[**Theoretical exploration of the direct effect of warming to better understand mechanisms**]
 
----
-# To conclude
+--
 
-
+<br>
+Of course in nature ... things are different !
+- Warming has interactive effects
+- Land use
+- Fishing
+- Increase in human populations
+- Pollution
+- ...
 
 ---
 class: inverse
@@ -940,7 +954,7 @@ class: inverse
 .pull-left1[
 <br>
 
-# Key message here
+.font180[**So it is not an excuse to take the plane** ;)]
 
 <br><br><br><br><br>
 
@@ -949,7 +963,7 @@ class: inverse
 - You for listening
 - My supervisors Dominique and Michel
 - Matthieu, Jeff and Ben
-- My lab mates
+- Lab mates in Sherbrooke and Moulis
 - Will for the (beautiful right?) template
 ]
 

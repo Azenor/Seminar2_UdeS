@@ -2456,9 +2456,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.8"
-     inkscape:cx="567.50379"
-     inkscape:cy="254.02976"
+     inkscape:zoom="1.4"
+     inkscape:cx="566.41101"
+     inkscape:cy="323.85186"
      inkscape:document-units="px"
      inkscape:current-layer="g25149"
      showgrid="false"
@@ -2502,7 +2502,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -4592,6 +4592,47 @@
            id="tspan38399"
            x="-2.2198102"
            y="712.43762" /></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:85.90071106px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="715.66467"
+         y="537.56836"
+         id="text9131"
+         sodipodi:linespacing="125%"
+         transform="scale(1.0099046,-0.99019254)"><tspan
+           sodipodi:role="line"
+           id="tspan9133"
+           x="715.66467"
+           y="537.56836"
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.95035172px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic'">13 916 517 occurence</tspan><tspan
+           sodipodi:role="line"
+           x="715.66467"
+           y="591.25629"
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.95035172px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic'"
+           id="tspan9135">11 365 fish species</tspan></text>
+      <flowRoot
+         xml:space="preserve"
+         id="flowRoot9137"
+         style="fill:black;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:40px;line-height:125%;letter-spacing:0px;word-spacing:0px"><flowRegion
+           id="flowRegion9139"><rect
+             id="rect9141"
+             width="246.42857"
+             height="49.285713"
+             x="675.71429"
+             y="16.237347" /></flowRegion><flowPara
+           id="flowPara9143"></flowPara></flowRoot>      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:85.90071106px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="583.74573"
+         y="1410.3809"
+         id="text9145"
+         sodipodi:linespacing="125%"
+         transform="scale(1.0099046,-0.99019254)"><tspan
+           sodipodi:role="line"
+           id="tspan9147"
+           x="583.74573"
+           y="1410.3809"
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.95035172px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic'">34 931 interactions</tspan></text>
     </g>
     <path
        style="opacity:0.5;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.44000006;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1.44, 1.44;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#Arrow1Lend-9)"

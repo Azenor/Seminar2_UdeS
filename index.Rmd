@@ -364,14 +364,7 @@ class: middle, center, inverse
 ## A cross-ecosystem comparison
 
 ---
-# Effects of temperature on trophic interactions
-
-.center[![:scale 70%](images/temp_trophic_interactions.svg)]
-- Consumer-resource interactions
-- Compare marine and terrestrial ecosystem
-
----
-# Food chain structural properties
+# Effects of temperature on food chain structural properties
 
 .center[
 Biomass distribution
@@ -615,37 +608,6 @@ class: inverse, center, middle
 .center[![:scale 60%](images/figure_herbivory.png)]
 
 ---
-class: inverse, center, middle
-
-# To conclude
-
----
-# To conclude
-
-.center[![:scale 80%](images/schema_recap1.png)]
-
----
-# To conclude
-
-.center[![:scale 80%](images/schema_recap2.png)]
-
-.center[**3 fundamental biological rates and their mismatches**]
-
----
-# To conclude
-
-.center[![:scale 80%](images/schema_recap3.png)]
-
-.center[**General trend : more top-down control in aquatic systems and top-heavier biomass distribution in terrestrial and aquatic ones**]
-
----
-# To conclude
-
-.center[![:scale 80%](images/schema_recap4.png)]
-
-.center[**Herbivory : more top-down control and less bottom-heavy biomass distribution**]
-
----
 # To conclude
 
 .pull-left[
@@ -686,29 +648,30 @@ class: inverse, center, middle
 # Effects of temperature on food webs
 
 <br><br>
-.center[![:scale 80%](images/temp_network.svg)]
+.center[![:scale 70%](images/temp_network.svg)]
+
+- Temperature gradient
+- Warming
+
+Do they affect community structure and dynamics in a similar way ?
 
 ---
 # Important gradients across latitudes
 
 .center[![:scale 90%](images/gradients.png)]
 
-.center[**How do they affect food webs dynamics ?**]
-
 ---
 # Warming
 
 .center[![:scale 50%](images/global_warming.jpg)]
 
-.center[**How does it affect food webs dynamics ?**]
-
 ---
-# Food webs dynamics
+# Food webs properties
 
 <br><br>
 .center[![:scale 200%](images/measures_chap2.svg)
 
-Effects of the latitudinal gradient and warming]
+Effects of the temperature gradient and warming : compare community and species dynamics]
 
 ---
 class: inverse, middle, center
@@ -723,10 +686,17 @@ class: inverse, middle, center
 Trophic interactions]
 
 ---
-# Modelling communities
+# Data
+
+.center[![:scale 90%](images/schema_data.svg)]
+<br><br>
+.cite[Albouy et al [2019], Irigoien et al [2014]]
+
+---
+# Theoretical approach
 
 <br>
-.center[**To infer their structural and dynamical properties**]
+.center[**Modelling communities to infer their structural and dynamical properties**]
 
 Lotka-Volterra system
 
@@ -742,24 +712,10 @@ Lotka-Volterra system
 - D<sub>i</sub> self regulation
 - *ϵ* conversion efficiency
 
----
-# Data and parameterization
-
-.center[![:scale 90%](images/schema_data.svg)]
-<br><br>
-.cite[Albouy et al [2019], Irigoien et al [2014]]
+.center[**How to parameterize the model?**]
 
 ---
-# Estimation of species biomass
-
-<br>
-.center[Abundance law
-
-![:scale 60%](images/hatton.png)]
-.cite[Hatton et al [2019]]
-
----
-# Temperature dependence of biological rates
+# Temperature and body-mass dependence of biological rates
 
 .pull-left[![](images/biological_rates_temp.png)]
 
@@ -778,7 +734,38 @@ $\large b_i = m_i^\beta b_0e^{-E/kT}$
 <br>
 
 .center[**Growth, metabolic and attack rate**]
-.center[**What about self-regulation ?**]
+
+---
+# Theoretical approach
+
+<br>
+.center[**Modelling communities to infer their structural and dynamical properties**]
+
+Lotka-Volterra system
+
+\begin{align}
+  \frac{dB_i}{dt} = g_i + \sum_j \epsilon M_{ij} B_j-\sum_k M_{ki} B_k - D_iB_i
+\end{align}
+
+<br>
+
+- **B biomass**
+- M interaction matrix
+- g net growth rate
+- **D self regulation**
+- *ϵ* conversion efficiency
+
+.center[Self-regulation is completely unknown...<br>
+Biomass can be inferred from allometric relationship]
+
+---
+# Estimation of species biomass
+
+<br>
+.center[Abundance law
+
+![:scale 60%](images/hatton.png)]
+.cite[Hatton et al [2019]]
 
 ---
 # Method to estimate self-regulation
@@ -861,34 +848,32 @@ class: inverse, middle, center
 ![](images/map_lambda.png)]
 
 ---
-# Dynamical properties at large scale
-
-.center[Biomass total
-![](images/map_sum_biom.png)]
-
----
-# Dynamical properties at large scale
-
-.center[Importance of indirect interactions
-![](images/map_collectivity2.png)]
-
----
 # Dynamical properties according to the number of species
 
-.center[![:scale 60%](images/nbspecies.svg)]
+.center[![:scale 60%](images/nbspecies.svg)
+
+Effect of the number of species on λ and collectivity]
 
 ---
 # Dynamical properties according to temperature
 
-.center[![:scale 60%](images/temp_control.svg)]
+.center[![:scale 60%](images/temp_control.svg)
+
+The temperature gradient alone does not seem to affect community properties (except collectivity) <br>
+But what about warming ?]
 
 ---
 # Effect of warming on dynamical properties
 
 .center[![:scale 60%](images/heat_diff.svg)]
 
+.center[Warming does not strongly affect community properties, except collectivity.
+Interactive effect of the temperature gradient with warming.]
+
 ---
-# Effect of warming on dynamical properties
+# Effect of warming on species biomass
+
+.center[If warming does not affect some properties of the community as a whole, does it affect single species in the community ?]
 
 .center[Difference in species biomass with warming for each trophic level
 ![](images/heat_hist.svg)]
@@ -896,24 +881,58 @@ class: inverse, middle, center
 ---
 # Conclusion
 
-- Effect of the number of species
-- Effect of the temperature gradient on collectivity
-- Low impact of warming on community properties
-  - except on collectivity
-- Warming affects species biomass intra-community
-  - especially 2nd and 3rd trophic levels
+- Effect of the number of species on λ and collectivity
+  - Could explain the latitudinal variation of trophic control
+- Temperature gradient and warming affects collectivity but not significantly other community properties
+
+**Warming seems to affect individual species more than communities as an entity**
+
+Especially species from trophic levels 2 and 3
 
 <br><br>
 Limitations :
 
 - Model assumptions and parameters
 - Limited data available
-- No variation in activation energies
+- No variation in activation energies (but same group taxonomic)
 
 ---
-# To summarize
+class: inverse, center, middle
+# To conclude
 
-blabla
+---
+# To conclude - First part
+
+.center[![:scale 80%](images/schema_recap2.png)]
+
+.center[**3 fundamental biological rates and their mismatches**]
+
+---
+# To conclude - First part
+
+.center[![:scale 80%](images/schema_recap3.png)]
+
+.center[**General trend : more top-down control in aquatic systems and top-heavier biomass distribution in terrestrial and aquatic ones**]
+
+---
+# To conclude - First part
+
+.center[![:scale 80%](images/schema_recap4.png)]
+
+.center[**Herbivory : more top-down control and less bottom-heavy biomass distribution**]
+
+---
+# To conclude - Second part
+
+- Trophic control and collectivity are affected by number of species
+  - Latitudinal gradient mostly driven by changes in number of species
+
+**Warming seems affect individual species biomasses, but not significantly community properties**
+
+---
+# To conclude
+
+
 
 ---
 class: inverse

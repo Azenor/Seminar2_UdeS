@@ -929,6 +929,7 @@ Temperature effects seem to vary from one scale to another !]
 - Community properties seem robust to warming
 - But individual species much less !
   - Which could explain why strong effects are observed at lower scales
+  - Warming effect on λ for a pair of species $\neq$ λ at the community level
 
 <br>
 .center[**Theoretical exploration of the direct effect of warming to better understand mechanisms**]

@@ -938,7 +938,7 @@ Temperature effects seem to vary from one scale to another !]
 <br>
 Of course in nature ... things are different !
 - Warming has interactive effects
-- Land use
+- Habitat loss
 - Fishing
 - Increase in human populations
 - Pollution

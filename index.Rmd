@@ -878,7 +878,7 @@ Interactive effect of warming and the temperature gradient]
 - Latitudinal variation mostly driven by number of species
 - λ decreases and collectivity increases with the number of species
   - Latitudinal variation in trophic control
-- Temperature gradient and warming affects collectivity, and warming affects variability, but not significantly other community properties
+- Temperature gradient and warming affects collectivity, warming affects variability, but not significantly other community properties
 
 <br><br>
 .center[**Warming seems to affect individual species more significantly than communities as an entity**

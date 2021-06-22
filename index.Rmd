@@ -936,8 +936,7 @@ Temperature effects seem to vary from one scale to another !]
 
 --
 
-<br>
-Of course in nature ... things are different !
+Of course in nature ... things can be different !
 - Warming has interactive effects
 - Habitat loss
 - Fishing

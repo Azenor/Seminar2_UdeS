@@ -156,6 +156,7 @@ class: middle, title-slide
 - Interaction strength
 - Stability]
 
+--
 .center[How and why ?]
 
 ---
@@ -227,7 +228,7 @@ Global warming
 
 ![:scale 80%](images/global_warming.jpg)]
 
---
+<br>
 .center[**What are the effects of temperature ?**]
 
 ---
@@ -478,7 +479,7 @@ Synthetic parameters describing food chain properties
 
 .center[![:scale 95%](images/theoretical_framework1.png)]
 
-λ compares the effect of species i on species j to the effect of species i on itself
+λ describes the feedback of a trophic level on itself through its predators
 
 .cite[Barbier & Loreau [2019]]
 
@@ -636,8 +637,8 @@ class: inverse, center, middle
 <br><br>
 .center[![:scale 70%](images/temp_network.svg)]
 
-- Temperature gradient
 - Warming
+- Temperature gradient
 
 Do they affect community structure and dynamics in a similar way ?
 
@@ -645,11 +646,6 @@ Do they affect community structure and dynamics in a similar way ?
 # Important gradients across latitudes
 
 .center[![:scale 90%](images/gradients.png)]
-
----
-# Warming
-
-.center[![:scale 50%](images/global_warming.jpg)]
 
 ---
 # Food webs properties
@@ -687,7 +683,7 @@ Trophic interactions]
 Lotka-Volterra system
 
 \begin{align}
-  \frac{dB_i}{dt} = g_i + \sum_j \epsilon M_{ij} B_j-\sum_k M_{ki} B_k - D_iB_i
+  \frac{dB_i}{dt} = g_iB_i + \sum_j \epsilon M_{ij} B_iB_j-\sum_k M_{ki} B_iB_k - D_iB_i^2
 \end{align}
 
 <br>
@@ -759,13 +755,13 @@ Biomass can be inferred from allometric relationship]
 .center[From available parameters and]
 <br>
 \begin{align}
-  \frac{dB_i}{dt} = g_i + \sum_j \epsilon M_{ij} B_j-\sum_k M_{ki} B_k - D_iB_i
+  \frac{dB_i}{dt} = g_iB_i + \sum_j \epsilon M_{ij} B_iB_j-\sum_k M_{ki} B_iB_k - D_iB_i^2
 \end{align}
 
 <br><br>
 .center[
 - allow coexistence
-- follow abundance laws]
+- biomass follows allometric laws]
 
 ---
 # Method to estimate self-regulation
@@ -841,10 +837,11 @@ class: inverse, middle, center
 Effect of the number of species on λ and collectivity]
 
 ---
-# Community properties according to temperature
+# Residual properties according to temperature
 
 <br>
 .center[![](images/temp_control.svg)
+.font70[(while controlling for the number of species)]
 
 <br>
 The temperature gradient alone does not seem to strongly affect community properties (except collectivity)
@@ -855,13 +852,12 @@ The temperature gradient alone does not seem to strongly affect community proper
 ---
 # Effect of warming on community properties
 
-<br>
 .center[Relative change with warming
 
 ![](images/heat_diff.svg)]
 
 <br>
-.center[Warming does not strongly affect community properties, except collectivity
+.center[Warming affects collectivity and variability but not other community properties
 
 Interactive effect of warming and the temperature gradient]
 
@@ -882,7 +878,7 @@ Interactive effect of warming and the temperature gradient]
 - Latitudinal variation mostly driven by number of species
 - λ decreases and collectivity increases with the number of species
   - Latitudinal variation in trophic control
-- Temperature gradient and warming affects collectivity but not significantly other community properties
+- Temperature gradient and warming affects collectivity, and warming affects variability, but not significantly other community properties
 
 <br><br>
 .center[**Warming seems to affect individual species more significantly than communities as an entity**
@@ -895,9 +891,9 @@ Especially species from trophic levels 2 and 3]
 <br>
 Limitations :
 
-- Model assumptions and parameters
 - Limited data available
-- No variation in activation energies (but same group taxonomic)
+- No variation in activation energies (but same taxonomic group)
+- Model assumptions and parameters
 
 .center[The model is right but it might be wrong]
 
@@ -954,7 +950,7 @@ class: inverse
 .pull-left1[
 <br>
 
-.font180[**So it is not an excuse to take the plane** ;)]
+.font180[**So this is not an excuse to take the plane too often** ;)]
 
 <br><br><br><br><br>
 
